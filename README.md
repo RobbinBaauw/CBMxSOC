@@ -1,6 +1,6 @@
 # CBMxSOC
 
-CBMxSOC is an algorithm that is able to solve the Multi-Agent Pathfinding with Matching (MAPFM) problem. This repository is part of a paper describing this algorithm. This paper can be found [here](TODO).
+CBMxSOC is an algorithm that is able to solve the Multi-Agent Pathfinding with Matching (MAPFM) problem. This repository is part of a paper describing this algorithm. This paper can be found [here](https://repository.tudelft.nl/islandora/object/uuid:e73165e6-d60b-43cc-8abd-c6046f0ab638?collection=education).
 
 ## Running the code
 The main thing to do, is to make a copy of `src/example.env.yaml` to `src/env.yaml`, and change this accordingly. The next couple of sections will indicate the different types of things that can then be done.
