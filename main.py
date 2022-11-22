@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
     def solve_fn(problem: Problem,
                  reset_teg: bool = False,
-                 disappearing_agents: bool = True):
+                 disappearing_agents: bool = False):
         if get_env().debug.profile:
             return profile(solve, problem, reset_teg, disappearing_agents)
         return solve(problem, reset_teg, disappearing_agents)

@@ -368,7 +368,8 @@ class GraphManager:
                     self.team.agents))
 
         goals_i = set(
-            map(lambda g: self.disappear_goal_main_id, self.team.goals))
+            map(lambda g: self.disappear_goal_main_id if self.disappearing_agents else self.nodes_out_i[g][t_max],
+                self.team.goals))
 
         for a, start_i in self.starts_i:
             curr_node_i = start_i
